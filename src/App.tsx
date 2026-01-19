@@ -27,7 +27,7 @@ function ProtectedRoute() {
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/workflow-master">
         <Routes>
           <Route path="/auth" element={<AuthPage />} />
 
